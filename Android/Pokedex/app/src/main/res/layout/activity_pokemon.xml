@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PokemonActivity">
+
+    <TextView
+        android:id="@+id/pokemon_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/pokemon_number"
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/pokemon_type1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/pokemon_type2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="320dp"
+        android:layout_height="251dp"
+        android:scaleType="center"
+        android:scaleX="5"
+        android:scaleY="5"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="320dp"
+        android:layout_height="131dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:textAlignment="viewStart" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="197dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="110dp"
+        android:background="@android:color/darker_gray"
+        android:onClick="toggleCatch"
+        android:text="Catch"
+        android:textSize="22dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
